@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,7 +16,7 @@
 	<ul>
 		<li><a href="<c:url value='/checkboxes' />">Simple checkboxes</a></li>
 		<li><a href="<c:url value='/checkboxes-manual' />">Simple checkboxes (without spring form)</a></li>
-		<li>Complex objects (TODO)</li>
+		<li><a href="<c:url value='/list-of-objects' />">List of complex objects</a></li>
 	</ul>
 	
 </body>

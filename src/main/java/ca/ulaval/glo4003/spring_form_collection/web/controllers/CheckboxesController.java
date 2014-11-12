@@ -20,8 +20,7 @@ public class CheckboxesController {
 
 	@ModelAttribute("availableProjects")
 	public List<String> availableProjects() {
-		return Arrays
-				.asList("Project 1", "Project 2", "Project 3", "Project 4");
+		return Arrays .asList("Project 1", "Project 2", "Project 3", "Project 4");
 	}
 
 	@RequestMapping(value = "/checkboxes", method = RequestMethod.GET)
